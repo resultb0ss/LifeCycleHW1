@@ -70,22 +70,5 @@ class SecondActivity : AppCompatActivity() {
 
 
     }
-//
-//    private val launchSomeActivity = registerForActivityResult(
-//        ActivityResultContracts.StartActivityForResult()
-//    ) { result ->
-//        if(result.resultCode == RESULT_OK){
-//            val data = result.data
-//            val height = data!!.getDoubleExtra("height",0.0) / 100
-//            val weight = data!!.getDoubleExtra("weight",0.0)
-////            var result = weight / (height * height)
-////            binding.massIndexET.text = "Ваш индекс массы тела $result кг/м2"
-////
-////            Toast.makeText(this,"$weight $height", Toast.LENGTH_LONG).show()
-////        } else {
-////            Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show()
-////        }
-//    }
-
 
 }
